@@ -1,6 +1,6 @@
 <template>
-<div class="grid grid-cols-12 gap-2 h-screen bg-background">
-  <div class="col-span-12 lg:col-span-9 bg-stone-50 rounded-r-[37px] md:divide-x-2 flex gap-2 flex-col lg:flex-row">
+<div class="grid grid-cols-12 gap-2 h-screen">
+  <div class="col-span-12 xl:col-span-9 bg-stone-50 rounded-r-[37px] md:divide-x-2 flex gap-2 flex-col lg:flex-row">
     <!-- NAVIGATION -->
       <div class="lg:w-[250px] w-full lg:h-full overflow-hidden">
         <NavBar />
@@ -11,12 +11,10 @@
       </div>
   </div>
   <!-- CALENDAR -->
-  <div class="col-span-3 bg-debug hidden">
-    <Calendar />
-  </div>
+    <div class="hidden xl:col-span-3 xl:block">
+      <Calendar class="p-10"/>
+    </div>
 
-  <!-- <mdicon name="content-save-minus-outline" /> -->
-  <!-- <RouterView /> -->
 </div>
 </template>
 

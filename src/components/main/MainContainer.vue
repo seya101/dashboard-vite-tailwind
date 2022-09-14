@@ -4,9 +4,9 @@
         <CurrentProject />
 
         <div class="grid grid-cols-12 grid-rows-2 gap-10">
-            <TasksForToday class="row-span-2 col-span-12 md:col-span-12 bg-gray-400" />
-            <!-- <Statistics class="row-span-1 col-span-12 md:col-span-6 bg-gray-300" />
-            <ProjectPlan class="row-span-1 col-span-12 md:col-span-6 bg-gray-200" /> -->
+            <TasksForToday class="row-span-2 col-span-12 md:col-span-6 " />
+            <Statistics class="row-span-1 col-span-12 md:col-span-6 " />
+            <ProjectPlan class="row-span-1 col-span-12 md:col-span-6 " />
         </div>
 
     </div>

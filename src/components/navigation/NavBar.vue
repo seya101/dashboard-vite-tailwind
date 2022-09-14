@@ -25,7 +25,7 @@
             <div class="bg-gradient-to-tl from-color_3 to _pink-500 rounded-xl p-2 text-white">
                 <mdicon name="checkbox-marked-circle-plus-outline" class="text-current" />
             </div>
-            <h5>BRAND</h5>
+            <h5>LOGO</h5>
         </div>
 
         <!-- BURGER MENU -->
