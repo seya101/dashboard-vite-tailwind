@@ -4,11 +4,12 @@
     <!-- NAVIGATION -->
       <div class="lg:w-[250px] w-full lg:h-full overflow-hidden">
         <NavBar />
+        
       </div>
     <!-- MAIN CONTENT -->
-      <div class="flex-1">
-        <MainContainer />
-      </div>
+    <div class="flex-1">
+      <router-view />
+    </div>
   </div>
   <!-- CALENDAR -->
     <div class="hidden xl:col-span-3 xl:block">
@@ -21,6 +22,7 @@
 <script setup>
   import { RouterLink, RouterView } from 'vue-router'
   import NavBar from './components/navigation/NavBar.vue';
-  import MainContainer from './components/main/MainContainer.vue';
+  import MainContainer from './components/main/Dashboard/MainContainer.vue';
   import Calendar from './components/calendar/Calendar.vue';
+  import Dashboard from './views/Dashboard.vue';
   </script>
