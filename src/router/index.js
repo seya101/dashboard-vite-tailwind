@@ -1,30 +1,35 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import Dashboard from '../views/Dashboard.vue'
 import PageNotFound from '../views/PageNotFound.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
     {
+      path: '/',
+      name: 'Dashboard',
+      component: () => import('../views/Dashboard.vue')
+    },
+    {
       path: '/Dashboard',
-      name: 'dashboard',
-      component: Dashboard
+      name: 'Dashboard',
+      component: () => import('../views/Dashboard.vue')
     },
     {
       path: '/Analytics',
-      name: 'analytics',
+      name: 'Analytics',
       component: () => import('../views/Analytics.vue')
     },
     {
       path: '/Tracking',
-      name: 'tracking',
+      name: 'Tracking',
       component: () => import('../views/Tracking.vue')
     },
     {
       path: '/Setting',
-      name: 'setting',
+      name: 'Setting',
       component: () => import('../views/Setting.vue')
-    },
+    }
+    ,
     // Catch All 404
     {
       path: '/:catchAll(.*)',
