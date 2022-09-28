@@ -5,7 +5,7 @@
             @click="setActive(index)"
             :key="index"
         >   
-            <router-link :to="{ path:text }" >
+            <router-link :to="{ name:text }" >
                 <div 
                     class="p-3 flex justify-start items-center gap-3 cursor-pointer"
                     :class="{'font-bold bg-gradient-to-tl to _pink-500 from-orange-300 rounded-xl text-gray-500 ': active === index}"

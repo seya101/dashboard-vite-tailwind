@@ -1,5 +1,5 @@
 <template>
-    <div class="flex flex-col gap-10 p-7">
+<div class="flex flex-col gap-10 p-7">
     <div class="flex flex-col md:flex-row gap-10 justify-between items-center">
         <div>
             <h1 class="font-extrabold text-5xl text-blueGray-700">Title Page</h1>
